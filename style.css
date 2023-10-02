@@ -231,17 +231,149 @@ main {
   }
 }
 
+.about {
+  height: 55vh;
+  background-color: #343a40;
+  padding: 2% 10% 50%;
+}
+
+.about-desc {
+  margin: 50px 40px;
+  animation: navbar 0.8s ease forwards;
+}
+
+.about-desc p:nth-child(1) {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 0px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-desc p:nth-child(2) {
+  color: #ffffff;
+  text-align: center;
+}
+
+.row {
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+}
+
+.row .colum h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  animation: navbar 0.8s ease forwards;
+}
+
+.row .colum p {
+  text-align: justify;
+  animation: navbar 0.8s ease forwards;
+}
+
+.colum {
+  flex: 50px;
+  padding: 30px;
+  height: 250px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.contact {
+  height: 65vh;
+  background-color: #343a40;
+  padding: 2% 10% 50%;
+}
+
+.contact-desc {
+  margin: 50px 40px;
+}
+
+.contact-desc p:nth-child(1) {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 0px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.contact-desc p:nth-child(2) {
+  color: #ffffff;
+  text-align: center;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #0f3460;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: darkblue;
+}
+
+input:active {
+  transform: scale(1, 1);
+}
+
+.box-contact {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+}
+
+.contact button {
+  margin-top: 30px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 45px;
+  border: none;
+}
+
+.skill-desc p:nth-child(1) {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.skill-desc p:nth-child(2) {
+  color: #ffffff;
+  text-align: center;
+}
+
 .box-kiri,
 .box-tengah,
 .box-kanan {
   align-content: center;
-  width: 350px;
+  width: 300px;
   height: 350px;
   background-color: lightgray;
   text-align: center;
   padding: 30px 30px;
-  margin-top: 60px;
-  margin: 70px 20px 20px 55px;
+  margin-top: 40px;
+  margin-right: 55px;
   box-shadow: 2px 12px 18px;
   border-radius: 20px;
   float: left;
@@ -262,10 +394,9 @@ p {
 }
 
 .box-skill {
-  text-align: center;
-  color: black;
-  margin: 0px auto;
-  margin-top: 50px;
+  height: 55vh;
+  background-color: #343a40;
+  padding: 2% 10% 50%;
 }
 
 .footer {
